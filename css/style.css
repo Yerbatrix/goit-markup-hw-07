@@ -197,11 +197,42 @@ button {
   .order-service-btn:hover,
   .order-service-btn:focus {
     background-color: #404bbf;
-
+  }
   /* =======SECOND SECTION=========== */
-
+  .sec-sect-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+    margin-top: 96px;
+  }
+  .sec-sect-icon-background {
+    display: none;
+  }
+  .sec-sect-item-name {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--navyblue-color);
+    line-height: 1.11;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .sec-sect-item {
+    color: var(--main-text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
   /* ======THIRD SECTION========= */
-
+  .third-section-whole {
+    display: none;
+  }
   /* ======LAST TOUCHES====== */
   .container {
     width: 428px;
