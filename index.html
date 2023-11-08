@@ -19,9 +19,12 @@
     />
     <link href="./css/style.css" rel="stylesheet" />
   </head>
+
   <body>
+    <!-- ==============================HEADER================================= -->
     <header class="header-border">
-      <div class="container">
+      <!--=============================NAVIGATION============================-->
+      <div class="container header-cont">
         <nav class="header-navigation-flex">
           <a class="logo link" href="./index.html"
             >Web<span class="studio">Studio</span></a
@@ -42,6 +45,7 @@
             <li><a class="header-navigation link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <!--=======================ADDRESS==================================-->
         <address class="address">
           <ul class="list address-flex">
             <li>
@@ -56,11 +60,22 @@
             </li>
           </ul>
         </address>
+        <!-- ======================MOBILE MENU BUTTON======================== -->
+        <div class="burger-menu">
+          <button type="button" class="hamburger-button">
+            <svg class="menu-toggle-btn" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
+
+    <!-- ==============================MAIN============================== -->
     <main>
+      <!-- ====================HERO SECTION==================== -->
       <section class="first-section section">
-        <div class="container">
+        <div class="container hero">
           <h1 class="first-section-title">
             Effective Solutions for Your Business
           </h1>
@@ -69,10 +84,11 @@
           </button>
         </div>
       </section>
-
+      <!-- ====================SECOND SECTION==================== -->
       <section class="section sec-section">
         <div class="container">
           <h2 class="sec-sect-title visually-hidden">Section 2</h2>
+          <!-- ====================SECOND SECTION LIST==================== -->
           <ul class="list sec-sect-list">
             <li class="sec-sect-list-item">
               <div class="sec-sect-icon-background">
@@ -129,6 +145,7 @@
         </div>
       </section>
 
+      <!-- ====================THIRD SECTION==================== -->
       <section class="section">
         <div class="container">
           <h2 class="third-sect-title">What are we doing</h2>
@@ -164,10 +181,13 @@
         </div>
       </section>
 
+      <!-- ====================TEAM SECTION==================== -->
+
       <section class="team-section section">
         <div class="container">
           <h2 class="team-section-title">Our Team</h2>
           <ul class="list team-list">
+            <!-- ===== MARK CARD ===== -->
             <li class="team-card">
               <img
                 class="img"
@@ -211,6 +231,8 @@
                 </ul>
               </div>
             </li>
+
+            <!-- ===== TOM CARD ===== -->
             <li class="team-card">
               <img
                 class="img"
@@ -254,6 +276,8 @@
                 </ul>
               </div>
             </li>
+
+            <!-- ===== CAMILA CARD ===== -->
             <li class="team-card">
               <img
                 class="img"
@@ -297,6 +321,8 @@
                 </ul>
               </div>
             </li>
+
+            <!-- ===== DANIEL CARD ===== -->
             <li class="team-card">
               <img
                 class="img"
@@ -343,6 +369,8 @@
           </ul>
         </div>
       </section>
+
+      <!-- ==================== CUSTOMERS SECTION ==================== -->
       <section class="section">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
@@ -393,7 +421,7 @@
         </div>
       </section>
     </main>
-
+    <!-- ========================= FOOTER ============================ -->
     <footer class="footer">
       <div class="container footer-blocks">
         <div class="footer-leftblock">
@@ -460,7 +488,7 @@
         </div>
       </div>
     </footer>
-
+    <!-- =====================MODAL WINDOW======================== -->
     <div class="modal is-hidden" data-modal>
       <div class="modal-box">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -555,6 +583,7 @@
         </form>
       </div>
     </div>
+    <!-- ==================SCRIPTS======================= -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
