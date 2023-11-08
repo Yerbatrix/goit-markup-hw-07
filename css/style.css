@@ -84,7 +84,7 @@ button {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   /* ===================MOBILE GENERAL=========================== */
   .container {
-    width: 100%;
+    max-width: 480px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -102,11 +102,14 @@ button {
   .header-cont {
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 
   .header-navigation-flex {
     display: flex;
     align-items: center;
+    padding: 10px 20px;
   }
 
   .logo {
@@ -228,6 +231,7 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 0 16px;
   }
   /* ======THIRD SECTION========= */
   .third-section-whole {
@@ -331,12 +335,61 @@ button {
   }
 
   /* ==========CUSTOMERS SECTION========== */
-
-  /* ======LAST TOUCHES====== */
-  .container {
-    width: 428px;
+  .customers-title {
+    text-align: center;
+    color: var(--studio-color);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
   }
-}
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    row-gap: 72px;
+  }
+  .customer-card {
+    width: calc((100% - 16px) / 2);
+    height: 88px;
+    width: 190px;
+    flex-shrink: 1;
+  }
+
+  .customer-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--LIGHT-SLATE);
+    transition-property: border-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+    .customer-link:hover,
+    .customer-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+    }
+
+    .customer-icon {
+      fill: currentColor;
+    }
+
+    /* =========FOOTER========= */
+    /* ======LAST TOUCHES====== */
+    
 
 /*===========================TABLET======================================*/
 @media screen and (min-width: 768px) {
