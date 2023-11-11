@@ -174,8 +174,9 @@ button {
     color: var(--WHITE);
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     margin-bottom: 72px;
+    max-width: 320px;
   }
 
   .order-service-btn {
