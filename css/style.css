@@ -279,7 +279,7 @@ button {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: var(--white-color);
+    background-color: var(--main-background-color);
     border-radius: 0px 0px 4px 4px;
     list-style: none;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -595,7 +595,8 @@ button {
 
   .modal-box {
     position: absolute;
-    width: 392px;
+    width: calc(100% - 36px);
+    max-width: 392px;
     min-height: 584px;
     border-radius: 4px;
     background: #fcfcfc;
@@ -605,7 +606,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px;
+    padding: 72px 16px 24px;
   }
 
   .modal-close-btn {
@@ -1240,7 +1241,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--white-color);
+    background-color: var(--main-background-color);
     border-radius: 0px 0px 4px 4px;
     list-style: none;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
