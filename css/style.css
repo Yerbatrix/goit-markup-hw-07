@@ -81,7 +81,7 @@ button {
   /* ===================MOBILE GENERAL=========================== */
   .container {
     max-width: 480px;
-    padding: 0 15px;
+    padding: 0 16px;
     margin: 0 auto;
   }
 
@@ -896,7 +896,7 @@ button {
   }
   /* ===================MOBILE PORTFOLIO===================== */
   .portfolio-section {
-    padding-bottom: 48px;
+    padding: 48px 0 48px 0;
   }
 
   .philter {
@@ -904,7 +904,6 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 48px;
-    margin-top: 48px;
   }
 
   .philter-button {
@@ -1530,7 +1529,7 @@ button {
 
   /* ===================TABLET PORTFOLIO===================== */
   .portfolio-section {
-    padding-bottom: 48px;
+    padding: 64px 0 96px 0;
   }
 
   .philter {
@@ -1538,7 +1537,6 @@ button {
     justify-content: center;
     gap: 24px;
     margin-bottom: 48px;
-    margin-top: 48px;
   }
 
   .philter-button {
@@ -1939,7 +1937,7 @@ button {
 
   .container {
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 16px;
     margin: 0 auto;
   }
 
@@ -2272,20 +2270,17 @@ button {
 
   /* ================DESKTOP PORTFOLIO=================== */
   .portfolio-section {
-    padding: 96px 0 120px 0;
-  }
-
-  .philter {
-    margin: 0 auto;
-    max-width: 586px;
-    padding-inline-start: 0px;
-    justify-content: center;
-    margin-bottom: 72px;
+    padding: 100px 0 120px 0;
   }
 
   .philter {
     display: flex;
     gap: 24px;
+    margin-bottom: 72px;
+    margin: 0 auto;
+    max-width: 586px;
+    padding-inline-start: 0px;
+    justify-content: center;
     margin-bottom: 72px;
   }
 
