@@ -960,15 +960,14 @@ button {
   }
 
   .appcard-overlay-frame {
-    width: 396px;
+    max-width: 396px;
     overflow: hidden;
     position: relative;
   }
 
   .imageblock {
     display: block;
-    max-width: 396px;
-    height: auto;
+    max-width: 100%;
   }
   .appcard-overlay {
     position: absolute;
@@ -1591,15 +1590,15 @@ button {
   }
 
   .appcard-overlay-frame {
-    width: 356px;
+    max-width: 356px;
     overflow: hidden;
     position: relative;
   }
 
   .imageblock {
     display: block;
-    max-width: 356px;
-    max-height: 300px;
+    max-width: 100%;
+    height: 300px;
   }
   .appcard-overlay {
     position: absolute;
@@ -2317,10 +2316,15 @@ button {
   }
 
   .appcard-overlay-frame {
-    width: 360px;
-    height: 300px;
+    max-width: 360px;
     overflow: hidden;
     position: relative;
+  }
+
+  .imageblock {
+    max-width: 100%;
+    display: block;
+    height: 300px;
   }
 
   .appcard-overlay {
