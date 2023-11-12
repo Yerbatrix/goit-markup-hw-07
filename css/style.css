@@ -86,7 +86,7 @@ button {
   }
 
   .section {
-    margin-bottom: 96px;
+    padding: 96px 0px;
   }
   /* =====================MOBILE HEADER============================== */
   .header-border {
@@ -208,7 +208,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     gap: 72px;
-    margin-top: 96px;
   }
   .sec-sect-icon-background {
     display: none;
@@ -232,7 +231,6 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 0 16px;
   }
   /* ======MOBILE THIRD SECTION========= */
   .third-section-whole {
@@ -253,14 +251,12 @@ button {
     text-align: center;
     color: var(--studio-color);
     margin-bottom: 72px;
-    padding-top: 96px;
   }
 
   .team-list {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-bottom: 96px;
   }
 
   .team-card {
@@ -391,6 +387,7 @@ button {
   /* =========MOBILE FOOTER========= */
   .footer {
     background-color: var(--studio-color);
+    padding: 96px 0;
   }
 
   .footer-blocks {
@@ -399,8 +396,6 @@ button {
     justify-content: center;
     align-items: center;
     gap: 72px;
-    padding-top: 72px;
-    padding-bottom: 96px;
   }
 
   .footer-leftblock {
@@ -1011,11 +1006,12 @@ button {
   /* ===================TABLET GENERAL=========================== */
   .container {
     max-width: 768px;
+    padding: 0 16px;
     margin: 0 auto;
   }
 
   .section {
-    margin-bottom: 96px;
+    padding: 96px 0;
   }
   /* =====================TABLET HEADER============================== */
   .header-border {
@@ -1154,7 +1150,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 96px;
     row-gap: 72px;
   }
   .sec-sect-list-item {
@@ -1182,7 +1177,6 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 0 16px;
   }
   /* ======TABLET THIRD SECTION========= */
   .third-section-whole {
@@ -1202,8 +1196,6 @@ button {
     text-transform: capitalize;
     text-align: center;
     color: var(--studio-color);
-    margin-bottom: 72px;
-    padding-top: 96px;
   }
 
   .team-list {
@@ -1212,7 +1204,6 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
-    padding-bottom: 96px;
   }
 
   .team-card {
