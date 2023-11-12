@@ -2550,7 +2550,7 @@ button {
     letter-spacing: 0.48px;
   }
 
-  .footer-email-input:focus {
+  .footer-email-input:focus-within {
     opacity: 1;
   }
 
@@ -2632,7 +2632,7 @@ button {
   }
 
   .modal-close-btn:hover,
-  .modal-close-btn:focus {
+  .modal-close-btn:focus-within {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
@@ -2684,7 +2684,7 @@ button {
   }
 
   .modal-input:hover,
-  .modal-input:focus {
+  .modal-input:focus-within {
     border-color: #4d5ae5;
   }
 
