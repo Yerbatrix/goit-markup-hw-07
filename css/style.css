@@ -1196,6 +1196,7 @@ button {
     text-transform: capitalize;
     text-align: center;
     color: var(--studio-color);
+    margin-bottom: 72px;
   }
 
   .team-list {
